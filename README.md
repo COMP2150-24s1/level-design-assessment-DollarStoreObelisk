@@ -77,6 +77,16 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
+
+- Friends pointed out some areas that could be reached unintentionally - moving platform on the end of level 1's section 2 could be jumped on without doing the spike section, furthermore, the block could be pushed prematurely off the platform, creating a softlock 
+  - As I couldn't fix this without removing the moving platform, I decided to split it, instead creating a ceiling from which to push the block to it's intended area. I believed the acid section in level 2 provided enough of an introduction to the concept to not reinclude it, as I felt it would bloat the section. 
+
+- Having a 2 block ceiling when jumping on a passthrough platform, which happened by accident when I did not explain that you had to hold down, then jump, created a "trampoline" effect which made getting through the platform needlessly hard. I made the gap between floor and ceiling in the first section of the first level 3 blocks to remove this issue, as I had originally designed it so the player felt that they had "nowhere else to go", which was already covered by it being the first thing the player had to encounter anyway. 
+
+- Path of least resistance - everyone in level 1 section 2 went down-left to kill the chomper because it was the "path of least resistance", as described by a playtester. Despite it intended as a light incentive to explore elsewhere after killing it, players then used it to try kill the other chomper on the 1 block island above it, attempting to make a precise jump that was riskier, rather than backtrack. I left this one untouched because this route explored the space in the way that I intended, only without the long jump, something I felt was covered in the first section of level 2. 
+
+- 1 playtester did not realise the wall in section 1 of level 2 was breakable, I fixed this by replacing it with a column, and adding a different background tile around it, as well as indicating it by sinking it further into the wall it was placed in, creating a visual indicator that there was an area there. 
+
 ## Generative AI Use Acknowledgement
 
 Use the below table to indicate any Generative AI or writing assistance tools used in creating your document. Please be honest and thorough in your reporting, as this will allow us to give you the marks you have earnt. Place any drafts or other evidence inside this repository. This form and related evidence do not count to your word count.
