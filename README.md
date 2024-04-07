@@ -21,6 +21,8 @@ Outline and justify how your level design facilitates the core player experience
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 
+The player learns various dynamics embedded within the game's systems, such as the jump height, and crouch shooting, through various "subscenes" that make up each level. I used the scene's geometry in largely isolated areas to minimise the ways in which the player could progress, thus encouraging use of the mechanic, or dynamic 
+
 ### 1.2. Drama
 What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
 
