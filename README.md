@@ -3,20 +3,7 @@
 ### Name: [Soo Hwan Kim]
 ### Student number: [47517891] 
 
-This document discusses and reflects on the design of your platformer level for the Level Design assessment. It should be 1500 words. Make sure you delete this and all other instructional text throughout the document before checking your word count prior to submission. Hint: You can check word count by copying this text into a Word or Google doc.
-
-Your document must include images. To insert an image into your documentation, place it in the "DocImages" folder in this repo, then place the below text where you want the image to appear:
-
-```
-![Place any alt text here](DocImages/<IMAGE NAME AND FILE EXTENSION>)
-```
-
-Example:
-
-![This is the alt text for an image!](DocImages/exampleimage.png)
-
 ## 1. Player Experience (~700 words)
-Outline and justify how your level design facilitates the core player experience goals outlined in the assignment spec. Each section should be supported by specific examples and screenshots of your game encounters that highlight design choices made to facilitate that particular experience.
 
 ### 1.1. Discovery
 What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
@@ -36,8 +23,7 @@ I reinforced this through the introduction of the chompers and aerial attacks in
 I designed the geometry of the room to make the spikes' knockback push the player into one of the health pickups, helping to maintain a flow state as they attempt to discover ways to get through the spikes. 
 
 
-### 1.2. Drama
-What is the intensity curve? How does your design facilitate increasing yet modulating intensity, with moments of tension and relief? 
+### 1.2. Drama 
 
 My design invokes Drama through use and exploration of the known to influence the player's experiential arc. This is primarily done through the modulation of physical, perceptive, and intellectual challenge over time, through the player's movement through the spacce given. 
 
@@ -51,8 +37,7 @@ Additionally, I subverted this resonance after this scene, through heavy usage o
 
 
 
-### 1.3. Challenge
-What are the main challenges? How have you designed and balanced these challenges to control the difficulty curve and keep the player in the flow channel?
+### 1.3. Challenge 
 
 The player experiences various forms of Challenge, in the form of Intellectual, Perceptual, and Physical, balanced through the isolation of various segments to allow players to explore the various verbs given to them, before showing alternative uses, then demanding players to combine various verbs to successfully complete the later sections, composed of the same ideas shown prior. 
 
@@ -66,8 +51,7 @@ I ensured players would have the intrinsic skills to overcome these challenges t
 
 ![A long horizontal chamber, blocked by 3 doors. A switch is found in a room to the left, with a gap leading to it at floor level that is too small to be walked through. On the other side of the doors, 2 chompers, one on ground level, one on raised ground a block higher, and a spitter on the latter elevation, are seen.](DocImages/IntrinsicTeachExample3.png) 
 
-### 1.4. Exploration
-How does your level design facilitate autonomy and invite the player to explore? How do your aesthetic and layout choices create distinct and memorable spaces and/or places?
+### 1.4. Exploration 
 
 My design invoked exporation through autonomy in the ways the player could overcome the obstacles presented, and in the optional section presented. I furthered this through the aesthetic shifts in each section, to add to moments within the game's dramatic arc, thereby creating distinct and memorable spaces, and to reward curiosity. 
 
@@ -89,12 +73,7 @@ I created a secret section that could only be accessed with the gun, through a f
 
 ![An illustration of a path for the aforementioned higher up platform, moving through the moon, before going downwards and reaching the start of the level.](DocImages/ExplorationHiddenMoonTouch.png) 
 
-## 2. Core Gameplay (~400 words)
-A section on Core Gameplay, where storyboards are used to outline how you introduce the player to each of the required gameplay elements in the first section of the game. Storyboards should follow the format provided in lectures.
-
-Storyboards can be combined when multiple mechanics are introduced within a single encounter. Each section should include a sentence or two to briefly justify why you chose to introduce the mechanic/s to the player in that sequence.
-
-You should restructure the headings below to match the order they appear in your level.
+## 2. Core Gameplay (~400 words) 
 
 
 ### 2.1. Passthrough Platforms, Spitters, Weapon pickup, Health Pickups 
@@ -175,14 +154,46 @@ Reflect on how iterative design helped to improve your level. Additional prototy
 
 You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
+I used iterative design to improve the technical and experiential goals I had set out to achieve, by fine tuning with respect to player experience. 
 
-- Friends pointed out some areas that could be reached unintentionally - moving platform on the end of level 1's section 2 could be jumped on without doing the spike section, furthermore, the block could be pushed prematurely off the platform, creating a softlock 
-  - As I couldn't fix this without removing the moving platform, I decided to split it, instead creating a ceiling from which to push the block to it's intended area. I believed the acid section in level 2 provided enough of an introduction to the concept to not reinclude it, as I felt it would bloat the section. 
+An example of this was in the early stages of planning the run and gun section, where the way to get to the enemy plates felt unfair, as the spike in the corner was not noticeable enough, which knocked the player into the enemies, disrupting the flow of the game unfairly. 
 
-- Having a 2 block ceiling when jumping on a passthrough platform, which happened by accident when I did not explain that you had to hold down, then jump, created a "trampoline" effect which made getting through the platform needlessly hard. I made the gap between floor and ceiling in the first section of the first level 3 blocks to remove this issue, as I had originally designed it so the player felt that they had "nowhere else to go", which was already covered by it being the first thing the player had to encounter anyway. 
+![Run and Gun enemy plate section pre iteration](DocImages/RunAndGunEnemyPlatePreIteration.png) 
 
-- Path of least resistance - everyone in level 1 section 2 went down-left to kill the chomper because it was the "path of least resistance", as described by a playtester. Despite it intended as a light incentive to explore elsewhere after killing it, players then used it to try kill the other chomper on the 1 block island above it, attempting to make a precise jump that was riskier, rather than backtrack. I left this one untouched because this route explored the space in the way that I intended, only without the long jump, something I felt was covered in the first section of level 2. 
+I improved this by removing the spikes, creating a smoother gameplay experience. 
 
-- 1 playtester did not realise the wall in section 1 of level 2 was breakable, I fixed this by replacing it with a column, and adding a different background tile around it, as well as indicating it by sinking it further into the wall it was placed in, creating a visual indicator that there was an area there. 
+![Run and Gun enemy plate section post iteration](DocImages/RunAndGunEnemyPlatePostIteration.png) 
+
+This iteration was much needed, as my paper prototype did not account for this area. 
+
+![Run and Gun initial draft](DocImages/RunAndGun.HEIC) 
+
+Additionally, in a grey-boxed playtest of my level, a playtester pointed out how players could accidentally move the box in the first section off its platform, effectively softlocking the game. After consideration, I decided there was no way for me to implement this in a way that did not allow for the player to do this, and paired with the platforms in the acid section sufficiently introducing the player to platforms, I used this information to change the platform to a corridor. However, I took this idea, and instead implemented it in the final area. 
+
+![First block puzzle pre-iteration](DocImages/FirstBlockPuzzlePreIteration.png) 
+
+![First block puzzle post-iteration](DocImages/FirstBlockPuzzlePostIteration.png) 
+
+![Final puzzle implementation, where the player must reach the platform the block is sitting on, and push it off.](DocImages/FinalPuzzleFinalLook.png) 
+
+My initial idea of a section based around movement manipulation via the 1 block distance gained from swinging the staff were scrapped after I observed all my playtesters failing to bridge the 1 block gap in the chomper section. Alongside this information, I decided it would be unfair to make it a mandatory part of the game, as laid out in my initial plans for the first section. However, I still liked the idea of such movement manipulation as a reward for players who discovered this and wanted to use it, so I implemented it as an alternate pathing for the final precision section that rewarded mastery over this physical challenge. 
+
+![Initial idea for level, the acid section demanded the player cross a 10 block acid pit, which was only achievable through mashing the staff swing.](DocImages/InitialIdeas.HEIC) 
+
+![1 block gap that all playtesters fell in.](DocImages/PlaytesterPit.png) 
+
+![Paper prototype of alternate use of movement tech.](DocImages/MovementTechPaperProto.png) 
+
+![Final implementation of alternate use of movement tech](DocImages/MovementTechFinalView.png) 
+
+1 playtester did not realise the wall in section 1 of level 2 was breakable, I fixed this by replacing it with a column, and adding a different background tile around it, as well as indicating it by sinking it further into the wall it was placed in, creating a visual indicator that there was an area there. 
+
+![Acid wall section pre iteration](DocImages/AcidWallPreIteration.png) 
+
+![Acid wall section post iteration](DocImages/AcidWallPostIteration.png) 
+
+Additionally, I found that the level felt too artificial, which hindered exploration. To counter this, I implemented the hidden sections later on, giving players another path they could possibly go back to. 
+
+![The hidden chamber of the level, on the furthest right of the map, as described in the exploration section.](DocImages/ExplorationHiddenChamber.png) 
 
 An aspect that could have benefited from additional iterations was more effective distribution of healing, as a better knowledge and execution of the amount of health the average player had in every section would have allowed for me to improve sections with better regard for player-centric design principles, key of which being better accounting for various player mental states and their subsequent reactions to risk. A section that could have benefited from this is the final precision section, where the alternate routing of clinging to the right wall and utilising tight jump-swings could have had more dimensions other than the route for players who are either low on health, or speedrunning the game, allowing for more accessible freedom in navigating that space. 
