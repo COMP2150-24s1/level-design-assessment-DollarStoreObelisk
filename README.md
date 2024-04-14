@@ -117,14 +117,23 @@ I introduced the spikes in this section, to build off the basics of platforming 
 
 ![Final view of second section](DocImages/Section2.png) 
 
-### 2.8. Acid
+### 2.3. Acid, Checkpoints, Moving Platforms 
 
-### 2.9. Checkpoints
+![First draft of Acid Section](DocImages/AcidSection.HEIC) 
 
-### 2.10. Moving Platforms
+I introduced the acid here, as I believed that the player had adequately adapted to most of the rules of platforming in this game, and acid with the respawn point would further reinforce the ideas the player had of the jumping properties. While a checkpoint was available earlier, it would likely have seen its first use here, as I expect the player to first attempt the jump over the acid. As the player respawned, I expected them to then explore the area, and see if they could break the wall that was just a bit ahead. 
 
-### 2.11. Weapon Pickup (Gun)
+I reinforced this through the placement of the checkpoint, making the player walk more forwards, to break them out of possible repetition by giving them time to think, while not pulling them out of the game. I used platforms first with a pressure plate to demonstrate this idea, then with a switch only activatable with the gun, to set up for the run and gun section ahead. 
 
+![Final view of acid section](DocImages/AcidSectionFinalView.png) 
+
+### 2.4. Weapon Pickup (Gun)
+
+![First draft of gun section](DocImages/RunAndGun.HEIC) 
+
+While the gun was technically introduced in the section just before, I made sure to introduce it more holistically in this section, combining it with enemies, and a unique application of the pressure plates in removing the weight, to stress test what I had just demonstrated prior. 
+
+![Final view of gun section](DocImages/RunAndGunSectionFinalView.png) 
 
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
@@ -133,11 +142,33 @@ No additional words are necessary for this section (any words should only be wit
  
 ### 3.1. Molecule Diagram
 
+![Molecule Diagram](DocImages/MoleculeDiagram.HEIC) 
+
 ### 3.2. Level Map – Section 1
+
+![Level Map Section 1](DocImages/LevelMapSec1.HEIC) 
+
+![Initial chomper + spikes introduction draft](DocImages/ChomperAndSpikes.HEIC) 
+
 
 ### 3.3.	Level Map – Section 2
 
+![Level Map Section 2](DocImages/LevelMapSec2.HEIC) 
+
+![AcidSection](DocImages/AcidSection.HEIC) 
+
+![Run and Gun section](DocImages/RunAndGun.HEIC) 
+
+
 ### 3.4.	Level Map – Section 3
+
+![Level Map Section 3 part 1](DocImages/LevelMapSec3Part1.HEIC) 
+
+![Level Map Section 3 part 2](DocImages/LevelMapSec3Part2.HEIC) 
+
+![Failed section prototype](DocImages/FailedSpitterHell.HEIC) 
+
+![Initial final area plan](DocImages/FinalPuzzle.HEIC) 
 
 ## 4. Iterative Design (~400 words)
 Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
