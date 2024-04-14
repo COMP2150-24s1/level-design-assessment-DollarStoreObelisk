@@ -3,9 +3,11 @@
 ### Name: [Soo Hwan Kim]
 ### Student number: [47517891] 
 
-## 1. Player Experience (~700 words)
+Total word count: 1517 words 
 
-### 1.1. Discovery
+## 1. Player Experience (760 words)
+
+### 1.1. Discovery (246 words) 
 
 The player learns how to better play the game, through the progression encouraging experimentation with various dynamics emerging from within the game's systems. Examples include the earlier sections’ obstacles teaching effective gauging of distances, and possibility of reaching the desired place. I encouraged this through the morphology of familiar scenes, first introducing the concepts in a safe and isolated manner, before widening its scope into alternate and combined uses. 
 
@@ -21,7 +23,7 @@ The introduction of the chompers and aerial attacks in the section right above i
 
 I designed the geometry of the room to make the spikes' knockback push the player into one of the health pickups, helping to maintain a flow state as they attempt to discover ways to get through the spikes. 
 
-### 1.2. Drama 
+### 1.2. Drama (185 words) 
 
 My design invokes Drama through use and exploration of the known to influence the player's experiential arc. This is primarily done through the modulation of physical, perceptive, and intellectual challenge over time, through the player's movement through the spacce given. 
 
@@ -33,7 +35,7 @@ Additionally, I subverted this resonance after this scene, through heavy usage o
 
 ![Flat ground with 2 outcroppings on either side, leading to underground areas. The sky is shown in the background, with a checkpoint and health in the left side, from down there the player enters this scene. The right side has a pressure plate, and a door, leading to a small cave entrance with a moving platform, and a switch just to the right of it, indicating that the platform will go down once shot.](DocImages/ResonanceExample.png) 
 
-### 1.3. Challenge 
+### 1.3. Challenge (143 words) 
 
 I designed for intellectual, perceptual, and physical challenge through the space of the level, balanced through isolated segments comprising a whole, to allow players to explore the various verbs given to them, before showing alternative uses, then demanding players to combine various verbs to successfully complete the later sections, composed of the same ideas shown prior, fitting with the dramatic arc of the level laid out previously.
 
@@ -47,7 +49,7 @@ Through this approach, players acquired the intrinsic skills to overcome these c
 
 ![A long horizontal chamber, blocked by 3 doors. A switch is found in a room to the left, with a gap leading to it at floor level that is too small to be walked through. On the other side of the doors, 2 chompers, one on ground level, one on raised ground a block higher, and a spitter on the latter elevation, are seen.](DocImages/IntrinsicTeachExample3.png) 
 
-### 1.4. Exploration 
+### 1.4. Exploration (186 words) 
 
 My design invoked exploration through autonomy in the ways the player could overcome the obstacles presented, and in the optional section presented. I furthered this through the aesthetic shifts in each section, to add to moments within the game's dramatic arc, thereby creating distinct and memorable spaces, and to reward curiosity. 
 
@@ -69,10 +71,10 @@ The secret section adds to memorability, as it rewards player curiosity, requiri
 
 ![An illustration of a path for the aforementioned higher up platform, moving through the moon, before going downwards and reaching the start of the level.](DocImages/ExplorationHiddenMoonTouch.png) 
 
-## 2. Core Gameplay (~400 words) 
+## 2. Core Gameplay (317 words) 
 
 
-### 2.1. Passthrough Platforms, Spitters, Weapon pickup, Health Pickups 
+### 2.1. Passthrough Platforms, Spitters, Weapon pickup, Health Pickups (114 words) 
 
 ![First draft of first section](DocImages/StartSection.HEIC) 
 
@@ -82,7 +84,7 @@ I added the health pickup here, expecting players to get hit, and would discover
 
 ![Final view of first section](DocImages/Section1.png) 
 
-### 2.2. Chompers, Spikes, Keys 
+### 2.2. Chompers, Spikes, Keys (105 words) 
 
 ![First draft of second section](DocImages/ChomperAndSpikes.HEIC) 
 
@@ -92,7 +94,7 @@ The spikes in this section built off the basics of platforming presented just be
 
 ![Final view of second section](DocImages/Section2.png) 
 
-### 2.3. Acid, Checkpoints, Moving Platforms 
+### 2.3. Acid, Checkpoints, Moving Platforms (147 words) 
 
 ![First draft of Acid Section](DocImages/AcidSection.HEIC) 
 
@@ -102,7 +104,7 @@ The placement of the checkpoint reinforced this, by making the player walk furth
 
 ![Final view of acid section](DocImages/AcidSectionFinalView.png) 
 
-### 2.4. Weapon Pickup (Gun)
+### 2.4. Weapon Pickup (Gun) (51 words) 
 
 ![First draft of gun section](DocImages/RunAndGun.HEIC) 
 
@@ -142,7 +144,7 @@ While the gun was technically introduced in the section just before, its propert
 
 ![Initial final area plan](DocImages/FinalPuzzle.HEIC) 
 
-## 4. Iterative Design (~400 words)
+## 4. Iterative Design (440 words)
 
 I used iterative design to improve the technical and experiential goals I had set out to achieve, by fine tuning with respect to player experience. 
 
