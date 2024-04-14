@@ -6,22 +6,20 @@
 ## 1. Player Experience (~700 words)
 
 ### 1.1. Discovery
-What does the player learn? How does your encounter and broader level design facilitate learning in a way that follows good design practice?
 
-The player learns more of how to play the game, encouraging experimentation with various dynamics emerging from within the game's systems, such as gauging plausible distances from the jump height, and length, through various "subscenes" that make up each level. I encouraged this through the morphology of familiar scenes, first introducing the concepts in a safe and isolated manner, before widening its scope into alternate and combined uses. 
+The player learns how to better play the game, through the progression encouraging experimentation with various dynamics emerging from within the game's systems. Examples include the earlier sections’ obstacles teaching effective gauging of distances, and possibility of reaching the desired place. I encouraged this through the morphology of familiar scenes, first introducing the concepts in a safe and isolated manner, before widening its scope into alternate and combined uses. 
 
-An example of this is in the first section of the game, where players are introduced to the rules of damage and switches, and the verb of melee attacks. 
+The first section demonstrates this, where players are introduced to the rules of damage and switches, and the verb of melee attacks. 
 
 ![A box-shaped room with a spitter, switch, and health pickup pressed to the right of it. Above those is a door, and a checkpoint.](DocImages/FirstSectionDiscoveryExample.png) 
 
 The player is expected to take damage while attempting this section, with the staff pickup right before it prompting the player to see how they can reach down and deal with the spitter. I isolated the idea of players being able to drop through platforms, and being able to deal damage, in order to familiarise them with the mechanic. 
 
-I reinforced this through the introduction of the chompers and aerial attacks in the section right above it, teaching the player alternate uses of the verb given, as well as approximate distance parameters of the jump verb, and how the players can modulate their appraoch to jumping, through the spikes leading to the second part of the section. 
+The introduction of the chompers and aerial attacks in the section right above it reinforces this in a stressed scenario, teaching the player alternate uses of the verb, and encouraging it’s combination with the jump verb. Additionally, players learn the approximate parameters of the jump verb, and how to modulate such, through the spike section just after it. 
 
 ![A chamber comprised of 2 sections, upper and lower. The lower section has a sheer cliff leading up to the upper, with a segment on the right and a singular floating block leading to it, occupied by a chomper. The floor is occupied by a chomper, and a chomper spawner. The upper section is a flat area with a block on it, and a pressure plate on the right. Connecting those two is another cliff that has spikes set in indents on its side. Health pickups are just below these spikes, which the knockback from those spikes seem to push the player into.](DocImages/FirstSectionParamsExample.png)
 
 I designed the geometry of the room to make the spikes' knockback push the player into one of the health pickups, helping to maintain a flow state as they attempt to discover ways to get through the spikes. 
-
 
 ### 1.2. Drama 
 
@@ -29,19 +27,17 @@ My design invokes Drama through use and exploration of the known to influence th
 
 Borrowing from the Gamer Motivation Model, I focused on the target experience of Mastery to inform my design process in modulating difficulty, creating first smaller subscenes for players to learn at a lower intensity, before raising it in later sections through demanding alternate and combined use of verbs. To create breaks from such tension, I used the connective spaces between spaces to create resonance, through the environmental design, with scenic sections the player had to walk through to get to the next parts of the game. 
 
-![Flat ground with 2 outcroppings on either side, leading to underground areas. The sky is shown in the background, with a checkpoint and health in the left side, from down there the player enters this scene. The right side has a pressure plate, and a door, leading to a small cave entrance with a moving platform, and a switch just to the right of it, indicating that the platform will go down once shot.](DocImages/ResonanceExample.png) 
+![A vertical "elevator shaft" chamber, below the moving platform from the previous picture. Flat horizontal sections covered in spikes are in the vertical mid-section of the chamber, the first 2 on the left, and the last on the right, with spikes lining the left wall in that section. A floating block covered in spikes lies 2 blocks underneath the first spiked row, parallel that is a spike on the right.](DocImages/ResonanceSubversionExample.png) 
 
 Additionally, I subverted this resonance after this scene, through heavy usage of spikes creating a dodging challenge that, while not truly threatening, as the health pickups just prior and after this scene create little risk for the player objectively, the drastic increase in spikes, and subversion of what felt like a "safe space", created anticipation for the sections ahead. 
 
-![A vertical "elevator shaft" chamber, below the moving platform from the previous picture. Flat horizontal sections covered in spikes are in the vertical mid-section of the chamber, the first 2 on the left, and the last on the right, with spikes lining the left wall in that section. A floating block covered in spikes lies 2 blocks underneath the first spiked row, parallel that is a spike on the right.](DocImages/ResonanceSubversionExample.png) 
-
-
+![Flat ground with 2 outcroppings on either side, leading to underground areas. The sky is shown in the background, with a checkpoint and health in the left side, from down there the player enters this scene. The right side has a pressure plate, and a door, leading to a small cave entrance with a moving platform, and a switch just to the right of it, indicating that the platform will go down once shot.](DocImages/ResonanceExample.png) 
 
 ### 1.3. Challenge 
 
-The player experiences various forms of Challenge, in the form of Intellectual, Perceptual, and Physical, balanced through the isolation of various segments to allow players to explore the various verbs given to them, before showing alternative uses, then demanding players to combine various verbs to successfully complete the later sections, composed of the same ideas shown prior. 
+I designed for intellectual, perceptual, and physical challenge through the space of the level, balanced through isolated segments comprising a whole, to allow players to explore the various verbs given to them, before showing alternative uses, then demanding players to combine various verbs to successfully complete the later sections, composed of the same ideas shown prior, fitting with the dramatic arc of the level laid out previously.
 
-I ensured players would have the intrinsic skills to overcome these challenges through this approach, as demonstrated by the precision section of Level 3 having taken the delayed jump movement learned from the spike section in the first level, the breakable walls and vertical movement from the first section of the second level, and the crouch shooting learned from the run and gun section in the latter part of the second level, creating a path through this section that players are guaranteed to know how to solve. 
+Through this approach, players acquired the intrinsic skills to overcome these challenges through this approach. The precision section of Level 3 demonstrates this, taking the delayed jump movement from the spikes in the first section, the breakable walls from the first section of the second level, and the crouch shooting from the run and gun section in the latter part of the second level, creating a composite challenge that suited their physical abilities at that stage. 
 
 ![A funnel-like chamber, with the player starting from the bottom. Indents on the left side of the funnel wall are populated with spikes and chompers, while the right side has 2 small indents just large enough for the player character to fit, each blocked by a breakable wall. The upper section has a moving platform and a switch, leading to 3 smaller floors, the top one with a chomper, the bottom with a spitter.](DocImages/IntrinsicTestExample.png) 
 
@@ -53,7 +49,7 @@ I ensured players would have the intrinsic skills to overcome these challenges t
 
 ### 1.4. Exploration 
 
-My design invoked exporation through autonomy in the ways the player could overcome the obstacles presented, and in the optional section presented. I furthered this through the aesthetic shifts in each section, to add to moments within the game's dramatic arc, thereby creating distinct and memorable spaces, and to reward curiosity. 
+My design invoked exploration through autonomy in the ways the player could overcome the obstacles presented, and in the optional section presented. I furthered this through the aesthetic shifts in each section, to add to moments within the game's dramatic arc, thereby creating distinct and memorable spaces, and to reward curiosity. 
 
 I furthered the dramatic arc with different environments, moving through general cave structures, to open atmosphere areas, to crystal mines, to correlate with the rising tension and releases found within the game's difficulty curve. Through this variety in aesthetic environments, I encouraged curiosity in upcoming sections. 
 
@@ -63,7 +59,7 @@ I furthered the dramatic arc with different environments, moving through general
 
 ![A cave structure, with 2 structures that look like "L"s flipped downwards, stacked against each other with 1 block vertical, and 3 block horizontal distance between them. A passthrough platform leads to a moving platform, and a switch, set to move upwards into the second "L"'s horizontal section. Both "L"s' horizontal sections have spikes growing down them, and a non-accessible circular space has spikes growing in a similar fashion.](DocImages/ExplorationCrystalMineExample.png) 
 
-I created a secret section that could only be accessed with the gun, through a floating island off the second section of the first level, that's impossible to reach without either a running start, or by swinging the staff in midair. Accessing this area provided the player with an alternate view of the corridor leading to the third level, and above it, a moving platform that allowed the player to "touch the moon", moving the player back to the start of the level, if they had shot a switch hanging above the door at the end of the third level. As I expected players to forget about the section until they finished and arrived back at the starting section, this was a way to remind, and reward curious players who went back to see what else the game had to offer. 
+The secret section adds to memorability, as it rewards player curiosity, requiring “replaying” the level, in order to activate the switches necessary. Accessing this provided the player with alternate views of the level, and a moving platform that allowed the player to "touch the moon”, creating a scenic experience. Players were expected to forget about this section until they reached the end door, upon which the second switch reminded and incentivised curious players, by providing audio incentive, to go back to see what else the game had to offer. 
 
 ![A small circular room, off the left side of the small cliff face displayed in the challenge section. Inside are 4 healing pickups, and a switch nestled deep into the left wall.](DocImages/ExplorationHiddenFirstSwitch.png) 
 
@@ -80,9 +76,9 @@ I created a secret section that could only be accessed with the gun, through a f
 
 ![First draft of first section](DocImages/StartSection.HEIC) 
 
-I chose to start the level with this section, as it was something that immediately put players into action, and created a dynamic between the player and enemies that wasn't just to run away. I used a passthrough platform, as I expected this to be something that the player is familiar with, and used the spitter here to introduce them to the player in a way that could be easily dealt with. Additionally, this section taught the player about switches, and what they can do, something that came up a lot in my design that I felt was important the player came to terms with quickly. 
+This section was chosen to be first, to quick start action which primed player expectations, and created a more active dynamic between players and enemies. The passthrough platform was something I felt had to be introduced hard and fast, so the spitter was introduced here to provide incentive to get down there quickly. Additionally, this section taught the player about switches, and what they can do, something that came up a lot in my design that I felt was important the player came to terms with quickly. 
 
-I added the health pickup here, as I expected players to get hit, and in hitting the switch, would collide with the pickup, discovering this mechanic organically. 
+I added the health pickup here, expecting players to get hit, and would discover this mechanic organically when interacting with the switch, and vice versa. 
 
 ![Final view of first section](DocImages/Section1.png) 
 
@@ -90,9 +86,9 @@ I added the health pickup here, as I expected players to get hit, and in hitting
 
 ![First draft of second section](DocImages/ChomperAndSpikes.HEIC) 
 
-I introduced the chompers here, alongside the basics of platforming, to reinforce the dynamic between the player and the enemies, and to get the player used to dealing with them in tandem with other obstacles. Due to the geometry, the chompers appear threatening due to their proximity, but are easily either avoided or killed by the player's superior mobility. 
+The chompers were introduced alongside the basics of platforming, to expand the dynamic established previously, and to get the player used to dealing with them alongside other obstacles. Due to the geometry, the chompers appear threatening due to their proximity, but are easily either avoided or killed by the player's superior mobility. 
 
-I introduced the spikes in this section, to build off the basics of platforming presented just before, and to teach precision with their movement, as it was another cornerstone of platformers I felt players needed to be accustomed to early. I decided to add the key here as an additional reward for successfully completing this task. 
+The spikes in this section built off the basics of platforming presented just before, teaching input precision, another cornerstone of the game I felt players needed to be accustomed to early. The key was introduced here as both a reward for overcoming this section, and to inform the player of the expected pacing. 
 
 ![Final view of second section](DocImages/Section2.png) 
 
@@ -100,9 +96,9 @@ I introduced the spikes in this section, to build off the basics of platforming 
 
 ![First draft of Acid Section](DocImages/AcidSection.HEIC) 
 
-I introduced the acid here, as I believed that the player had adequately adapted to most of the rules of platforming in this game, and acid with the respawn point would further reinforce the ideas the player had of the jumping properties. While a checkpoint was available earlier, it would likely have seen its first use here, as I expect the player to first attempt the jump over the acid. As the player respawned, I expected them to then explore the area, and see if they could break the wall that was just a bit ahead. 
+As the player had learned the basic rules of this game’s platforming, I introduced the acid to build off it, and introduced the properties of the respawn point to iron out ideas the player would have over the platforming system’s values. While a checkpoint was available earlier, the first use appears here, as I expect the player to first attempt the jump over the acid. As the player respawned, I expected them to then explore the area, and see if they could break the wall that was ahead. 
 
-I reinforced this through the placement of the checkpoint, making the player walk more forwards, to break them out of possible repetition by giving them time to think, while not pulling them out of the game. I used platforms first with a pressure plate to demonstrate this idea, then with a switch only activatable with the gun, to set up for the run and gun section ahead. 
+The placement of the checkpoint reinforced this, by making the player walk further to return to the same point, giving atmosphere for players to think of alternate solutions. Platforms were first introduced with a pressure plate activation to highlight triggers in a familiar environment, then with a gun-accessed switch, to set up for the run and gun section ahead. 
 
 ![Final view of acid section](DocImages/AcidSectionFinalView.png) 
 
@@ -110,14 +106,11 @@ I reinforced this through the placement of the checkpoint, making the player wal
 
 ![First draft of gun section](DocImages/RunAndGun.HEIC) 
 
-While the gun was technically introduced in the section just before, I made sure to introduce it more holistically in this section, combining it with enemies, and a unique application of the pressure plates in removing the weight, to stress test what I had just demonstrated prior. 
+While the gun was technically introduced in the section just before, its properties were introduced more holistically in this section, combining it with enemies in situations that demanded both ranged and melee attacks, and a unique application of the pressure plates by removing existing weight, to stress test the player's knowledge. 
 
 ![Final view of gun section](DocImages/RunAndGunSectionFinalView.png) 
 
-## 3. Spatiotemporal Design
-A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
-
-No additional words are necessary for this section (any words should only be within your images/diagrams).
+## 3. Spatiotemporal Design 
  
 ### 3.1. Molecule Diagram
 
@@ -150,9 +143,6 @@ No additional words are necessary for this section (any words should only be wit
 ![Initial final area plan](DocImages/FinalPuzzle.HEIC) 
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
-
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
 
 I used iterative design to improve the technical and experiential goals I had set out to achieve, by fine tuning with respect to player experience. 
 
@@ -168,7 +158,7 @@ This iteration was much needed, as my paper prototype did not account for this a
 
 ![Run and Gun initial draft](DocImages/RunAndGun.HEIC) 
 
-Additionally, in a grey-boxed playtest of my level, a playtester pointed out how players could accidentally move the box in the first section off its platform, effectively softlocking the game. After consideration, I decided there was no way for me to implement this in a way that did not allow for the player to do this, and paired with the platforms in the acid section sufficiently introducing the player to platforms, I used this information to change the platform to a corridor. However, I took this idea, and instead implemented it in the final area. 
+While greybox playtesting, a softlock was found by pushing the block from the first section off the platform. After consideration, I decided there was no way to implement this without designing for this case, and with the platforms in the acid section introducing the player to platforms, I used this information to change the platform to a corridor. Working with this, I instead implemented the break in the final area. 
 
 ![First block puzzle pre-iteration](DocImages/FirstBlockPuzzlePreIteration.png) 
 
@@ -176,7 +166,7 @@ Additionally, in a grey-boxed playtest of my level, a playtester pointed out how
 
 ![Final puzzle implementation, where the player must reach the platform the block is sitting on, and push it off.](DocImages/FinalPuzzleFinalLook.png) 
 
-My initial idea of a section based around movement manipulation via the 1 block distance gained from swinging the staff were scrapped after I observed all my playtesters failing to bridge the 1 block gap in the chomper section. Alongside this information, I decided it would be unfair to make it a mandatory part of the game, as laid out in my initial plans for the first section. However, I still liked the idea of such movement manipulation as a reward for players who discovered this and wanted to use it, so I implemented it as an alternate pathing for the final precision section that rewarded mastery over this physical challenge. 
+My initial idea of a section based around movement manipulation via the 1 block distance gained from swinging the staff were scrapped after all my playtesters failed to bridge the 1 block gap in the chomper section. From this, I gathered it unfair to be mandatory, as laid out in my initial plans for the first section. However, I felt players should be rewarded for discovering this and wanting to use it, so I implemented it as an alternate pathing for the final precision section, rewarding mastery over this physical challenge. 
 
 ![Initial idea for level, the acid section demanded the player cross a 10 block acid pit, which was only achievable through mashing the staff swing.](DocImages/InitialIdeas.HEIC) 
 
@@ -196,4 +186,4 @@ Additionally, I found that the level felt too artificial, which hindered explora
 
 ![The hidden chamber of the level, on the furthest right of the map, as described in the exploration section.](DocImages/ExplorationHiddenChamber.png) 
 
-An aspect that could have benefited from additional iterations was more effective distribution of healing, as a better knowledge and execution of the amount of health the average player had in every section would have allowed for me to improve sections with better regard for player-centric design principles, key of which being better accounting for various player mental states and their subsequent reactions to risk. A section that could have benefited from this is the final precision section, where the alternate routing of clinging to the right wall and utilising tight jump-swings could have had more dimensions other than the route for players who are either low on health, or speedrunning the game, allowing for more accessible freedom in navigating that space. 
+I could have iterated more on the distribution of healing, as better use of player health as a decision making factor would lead to more precise sections in regard to player-centric design principles, key of which being better accounting for various player mental states and their subsequent reactions to risk. A section that could have benefited from this is the final precision section, where the alternate route mentioned above could have had more dimensions in skill, allowing for more accessible freedom in navigating that space. 
